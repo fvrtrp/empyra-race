@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/empyra-race/static/css/main.1ed46a72.chunk.css",
-    "main.js": "/empyra-race/static/js/main.62534753.chunk.js",
+    "main.css": "/empyra-race/static/css/main.2c9662cf.chunk.css",
+    "main.js": "/empyra-race/static/js/main.92e80da2.chunk.js",
     "runtime-main.js": "/empyra-race/static/js/runtime-main.da7c7830.js",
-    "static/js/2.9db3b7b0.chunk.js": "/empyra-race/static/js/2.9db3b7b0.chunk.js",
+    "static/js/2.746c2a73.chunk.js": "/empyra-race/static/js/2.746c2a73.chunk.js",
     "static/js/3.1a581687.chunk.js": "/empyra-race/static/js/3.1a581687.chunk.js",
     "index.html": "/empyra-race/index.html",
-    "static/js/2.9db3b7b0.chunk.js.LICENSE.txt": "/empyra-race/static/js/2.9db3b7b0.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/empyra-race/static/media/bg.b85267b5.svg"
+    "static/js/2.746c2a73.chunk.js.LICENSE.txt": "/empyra-race/static/js/2.746c2a73.chunk.js.LICENSE.txt",
+    "static/media/bg.e39a2f2f.svg": "/empyra-race/static/media/bg.e39a2f2f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.da7c7830.js",
-    "static/js/2.9db3b7b0.chunk.js",
-    "static/css/main.1ed46a72.chunk.css",
-    "static/js/main.62534753.chunk.js"
+    "static/js/2.746c2a73.chunk.js",
+    "static/css/main.2c9662cf.chunk.css",
+    "static/js/main.92e80da2.chunk.js"
   ]
 }
