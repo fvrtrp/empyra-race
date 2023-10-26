@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import sha256 from 'js-sha256'
 import { questions, finalHash } from './questions'
-import logo from '../grid-hunt.png'
-import Background from './background'
+import Background from './bg.svg'
 
 export default function Hunt(props) {
 
@@ -51,7 +50,7 @@ export default function Hunt(props) {
                 <div className="container">
                     <h1 className="header">You have<br/>finished.</h1>
                     <div className="winPrompt">
-                        SHARE THIS SCREEN ON SLACK<br/>TO MARK COMPLETION.<br/>CONGRATS!
+                        SHARE THIS SCREEN ON TEAMS<br/>TO MARK COMPLETION.<br/>CONGRATS!
                     </div>
                 </div>
             </>
@@ -60,9 +59,10 @@ export default function Hunt(props) {
 
     return (
         <>
+            <img src={Background} alt="Background" className="background" />
             <div className="container">
                 <h1 className="header">
-                    <img src={logo} alt="logo" />
+                    Empyra<br/>Race
                 </h1>
                 <h3 className="prompt" aria-label="iamapuzzle">
                     {currentQuestion.title}

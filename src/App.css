@@ -10,7 +10,7 @@
   font: 300 16px 'Advent Pro', sans-serif;
   letter-spacing: 5px;
   color: white;
-  background: black;
+  background: linear-gradient(90deg, #050210, #000000);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -23,10 +23,14 @@
   left: 25px;
   top: 25px;
   pointer-events: none;
-  font-size: 70px;
-  color: #20FF3F;
-  font-family: 'Times New Roman';
+  font-size: 20px;
   letter-spacing: 0;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  background: white;
+  padding: 10px 20px;
+  color: black;
 }
 
 .App .prompt {
@@ -38,6 +42,7 @@
   margin-top: 150px;
   position: relative;
   z-index: 2;
+  color: rgb(94, 255, 14);
 }
 .promptBody {
   letter-spacing: 0;
@@ -49,21 +54,23 @@
 }
 
 .App input {
-  padding: 25px 35px;
+  padding: 15px 35px;
   color: white;
-  background: #FF5151;
+  background: rgba(255, 255, 255, 0.1);
   border: solid 0px #0024E1;
-  border-radius: 10px;
+  border-radius: 10px;  
   text-align: center;
-  letter-spacing: 11.43px;
-  min-width: 400px;
+  letter-spacing: 20px;
+  min-width: 500px;
   text-transform: uppercase;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Advent Pro', sans-serif;
+  font-size: 30px;
   position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 100px;
-  margin-left: -10%;
 }
 .App input:focus {
   outline: none;
@@ -79,8 +86,8 @@
   height: 100%;
   left: 0;
   top: 0;
-  display: flex;
-  flex-wrap: wrap;
+  object-fit: cover;
+  z-index: -1;
 }
 .square {
   position: absolute;
