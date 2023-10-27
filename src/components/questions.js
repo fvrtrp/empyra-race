@@ -3,10 +3,10 @@ export const questions = [
         key: 0,
         title: `This year’s non-repeating digits, added up`,
         body: ``,
-        solution: "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451",
+        solution: "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
     },
     {
-        key: '1048f03db5d45f654b955eae20d84b72673680fb13b318e7da22e8dce58df21c',
+        key: '5b65712d565c1551340998102d418ceccb35db8dbfb45f9041c4cae483d8717b',
         title: `Poison, or an anti-hero`,
         body: ``,
         solution: "6e48a35e9a36e1405dad7fb5311090f02680182bc8c323738542e4abfa8d5c20",
