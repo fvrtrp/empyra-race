@@ -85,12 +85,6 @@ export const questions = [
     },
     {
         key: '89ed8c4a0084f3f293cf7255f7b65ac62036e126fc5a071783250136c23a323a',
-        title: `This person knows when we get into the office, and out. He has the key.`,
-        body: ``,
-        solution: "1f713bd4bf6c078350f69e0b3dc0ee68343843820bf4c8a73771d019e0072517",
-    },
-    {
-        key: '783d8d1e20781c6eea633f3b3551076087abbd107eb9cfeba590e7b59b83ece9',
         title: `These things fly, get us excited, make us feel less lonely, inspire stories and myths, and are always almost debunked.`,
         body: ``,
         solution: "9975634b22a9e8be28a7b94c031b45259f22aa93fbd0a631c6953df689375446",

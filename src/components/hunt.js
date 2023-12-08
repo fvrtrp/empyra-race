@@ -14,6 +14,24 @@ export default function Hunt(props) {
         setQuestion(nextQuestion)
     }, [])
 
+    useEffect(() => {
+        const maxX = window.innerWidth
+        let side = 'left'
+        document.querySelector('.App').addEventListener('mousemove', function(e) {
+            const x = e.clientX
+            
+            let newSide = x < maxX/2 ? 'left' : 'right'
+            if(side === newSide) return
+            if(newSide === 'left') {
+                document.querySelector('.background').style.transform = `translate(-200px, 0)`
+            }
+            else {
+                document.querySelector('.background').style.transform = `translate(200px, 0)`
+            }
+            side = newSide
+        })
+    }, [])
+
     const checkPassword = (e) => {
         e.preventDefault();
         const key = currentQuestion.solution;
@@ -47,6 +65,7 @@ export default function Hunt(props) {
     if(completed) {
         return (
             <>
+                <img src={Background} alt="Background" className="background" />
                 <div className="container">
                     <h1 className="header">You have<br/>finished.</h1>
                     <div className="winPrompt">
@@ -62,7 +81,7 @@ export default function Hunt(props) {
             <img src={Background} alt="Background" className="background" />
             <div className="container">
                 <h1 className="header">
-                    Empyra<br/>Race
+                    HUNT<br/>x<br/>EMPYRA
                 </h1>
                 <h3 className="prompt" aria-label="iamapuzzle">
                     {currentQuestion.title}

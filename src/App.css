@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 .App {
   text-align: center;
@@ -7,12 +7,14 @@
   left: 0;
   height: 100%;
   width: 100%;
-  font: 300 16px 'Advent Pro', sans-serif;
+  font: 300 16px 'Playfair Display', sans-serif;
   letter-spacing: 5px;
   color: white;
   background: linear-gradient(90deg, #050210, #000000);
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23404040' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 .container {
   height: 100%;
@@ -23,14 +25,15 @@
   left: 25px;
   top: 25px;
   pointer-events: none;
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 0;
   text-align: left;
-  text-transform: uppercase;
   letter-spacing: 20px;
-  background: white;
-  padding: 10px 20px;
-  color: black;
+  background: #00000000;
+  padding: 10px 10px;
+  color: #ffc264;
+  backdrop-filter: blur(1px);
+
 }
 
 .App .prompt {
@@ -39,10 +42,10 @@
   font-weight: 300;
   max-width: 70%;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 200px;
   position: relative;
   z-index: 2;
-  color: rgb(94, 255, 14);
+  color: white;
 }
 .promptBody {
   letter-spacing: 0;
@@ -60,34 +63,38 @@
   border: solid 0px #0024E1;
   border-radius: 10px;  
   text-align: center;
-  letter-spacing: 20px;
-  min-width: 500px;
+  letter-spacing: 10px;
+  min-width: 400px;
   text-transform: uppercase;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Advent Pro', sans-serif;
-  font-size: 30px;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 18px;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
   bottom: 100px;
+  backdrop-filter: blur(5px);
 }
 .App input:focus {
   outline: none;
 }
 
 .App input::placeholder {
-  color: white;
+  /* color: ; */
 }
 
 .background {
   position: fixed;
-  width: 100%;
-  height: 100%;
-  left: 0;
+  width: 200%;
+  height: 120%;
+  left: -25%;
   top: 0;
   object-fit: cover;
   z-index: -1;
+  pointer-events: none;
+  transform: translate(0, 0);
+  transition: transform 5s ease;
 }
 .square {
   position: absolute;
