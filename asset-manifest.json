@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/empyra-race/static/css/main.2c9662cf.chunk.css",
-    "main.js": "/empyra-race/static/js/main.150ffedd.chunk.js",
-    "runtime-main.js": "/empyra-race/static/js/runtime-main.da7c7830.js",
-    "static/js/2.746c2a73.chunk.js": "/empyra-race/static/js/2.746c2a73.chunk.js",
-    "static/js/3.1a581687.chunk.js": "/empyra-race/static/js/3.1a581687.chunk.js",
-    "index.html": "/empyra-race/index.html",
-    "static/js/2.746c2a73.chunk.js.LICENSE.txt": "/empyra-race/static/js/2.746c2a73.chunk.js.LICENSE.txt",
-    "static/media/bg.e39a2f2f.svg": "/empyra-race/static/media/bg.e39a2f2f.svg"
+    "main.css": "/hunt-empyra/static/css/main.61f74830.chunk.css",
+    "main.js": "/hunt-empyra/static/js/main.e6e56ad9.chunk.js",
+    "runtime-main.js": "/hunt-empyra/static/js/runtime-main.fab48ef9.js",
+    "static/js/2.37ee76a6.chunk.js": "/hunt-empyra/static/js/2.37ee76a6.chunk.js",
+    "static/js/3.b9ae848a.chunk.js": "/hunt-empyra/static/js/3.b9ae848a.chunk.js",
+    "index.html": "/hunt-empyra/index.html",
+    "static/js/2.37ee76a6.chunk.js.LICENSE.txt": "/hunt-empyra/static/js/2.37ee76a6.chunk.js.LICENSE.txt",
+    "static/media/bg.e39a2f2f.svg": "/hunt-empyra/static/media/bg.e39a2f2f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.da7c7830.js",
-    "static/js/2.746c2a73.chunk.js",
-    "static/css/main.2c9662cf.chunk.css",
-    "static/js/main.150ffedd.chunk.js"
+    "static/js/runtime-main.fab48ef9.js",
+    "static/js/2.37ee76a6.chunk.js",
+    "static/css/main.61f74830.chunk.css",
+    "static/js/main.e6e56ad9.chunk.js"
   ]
 }
