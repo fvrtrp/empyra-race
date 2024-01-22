@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import sha256 from 'js-sha256'
 import { questions, finalHash } from './questions'
 import Background from './bg.svg'
+import Threadify from './threadify'
 
 export default function Hunt(props) {
 
@@ -12,24 +13,6 @@ export default function Hunt(props) {
     useEffect(() => {
         const nextQuestion = questions.find(i=>i.key === 0)
         setQuestion(nextQuestion)
-    }, [])
-
-    useEffect(() => {
-        const maxX = window.innerWidth
-        let side = 'left'
-        document.querySelector('.App').addEventListener('mousemove', function(e) {
-            const x = e.clientX
-            
-            let newSide = x < maxX/2 ? 'left' : 'right'
-            if(side === newSide) return
-            if(newSide === 'left') {
-                document.querySelector('.background').style.transform = `translate(-200px, 0)`
-            }
-            else {
-                document.querySelector('.background').style.transform = `translate(200px, 0)`
-            }
-            side = newSide
-        })
     }, [])
 
     const checkPassword = (e) => {
@@ -65,7 +48,6 @@ export default function Hunt(props) {
     if(completed) {
         return (
             <>
-                <img src={Background} alt="Background" className="background" />
                 <div className="container">
                     <h1 className="header">You have<br/>finished.</h1>
                     <div className="winPrompt">
@@ -78,12 +60,10 @@ export default function Hunt(props) {
 
     return (
         <>
-            <img src={Background} alt="Background" className="background" />
             <div className="container">
-                <h1 className="header">
-                    HUNT<br/>x<br/>EMPYRA
-                </h1>
-                <h3 className="prompt" aria-label="iamapuzzle">
+                <Threadify text="HUNT x Empyra" speed={10} />
+                <div className="prompt" aria-label="iamapuzzle">
+                <h3>
                     {currentQuestion.title}
                 </h3>
                 {
@@ -92,6 +72,7 @@ export default function Hunt(props) {
                         {currentQuestion.body}
                     </h5>
                 }
+                </div>
                 <form onSubmit={checkPassword}>
                     <input
                         placeholder={"TYPE HERE"}
@@ -101,6 +82,7 @@ export default function Hunt(props) {
                     />
                 </form>
             </div>
+            <a id="attribution" href="https://fvrtrp.com" target="_blank" rel="noreferrer">BY FVRTRP</a>
         </>
     )
 }

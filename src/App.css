@@ -7,14 +7,8 @@
   left: 0;
   height: 100%;
   width: 100%;
-  font: 300 16px 'Playfair Display', sans-serif;
+  font: 400 16px 'Playfair Display', sans-serif;
   letter-spacing: 5px;
-  color: white;
-  background: linear-gradient(90deg, #050210, #000000);
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  background-color: #000000;
-  background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23404040' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 .container {
   height: 100%;
@@ -24,57 +18,63 @@
   position: fixed;
   left: 25px;
   top: 25px;
-  pointer-events: none;
   font-size: 16px;
   letter-spacing: 0;
   text-align: left;
   letter-spacing: 20px;
-  background: #00000000;
   padding: 10px 10px;
-  color: #ffc264;
-  backdrop-filter: blur(1px);
-
+  color: #ffc264; 
 }
 
-.App .prompt {
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: 300;
+.prompt {
+  font-size: 16px;
+  /* text-transform: uppercase; */
+  /* font-weight: 300; */
   max-width: 70%;
   margin: auto;
-  margin-top: 200px;
+  margin-top: 100px;
   position: relative;
   z-index: 2;
+  /* color: white; */
+  box-shadow: 0 0 4px 2px rgb(239, 239, 239);
+  padding: 20px 30px;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  text-align: left;
+  transition: all 0.2s ease-in-out;
+}
+.prompt:hover {
   color: white;
+  background-color: #0024E1;
 }
 .promptBody {
-  letter-spacing: 0;
+  letter-spacing: 1px;
   margin: 20px auto 0;
-  font-size: 17px;
+  font-size: 15px;
   position: relative;
   z-index: 2;
   max-width: 70%;
 }
 
 .App input {
-  padding: 15px 35px;
-  color: white;
-  background: rgba(255, 255, 255, 0.1);
-  border: solid 0px #0024E1;
-  border-radius: 10px;  
+  padding: 40px 25px;
+  /* color: white; */
+  background: #badcff;
+  border: none;
+  /* border-bottom: solid 2px #0024E1; */
+  border-radius: 4px;  
   text-align: center;
   letter-spacing: 10px;
   min-width: 400px;
   text-transform: uppercase;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Playfair Display', sans-serif;
-  font-size: 18px;
+  font-family: sans-serif;
+  font-size: 14px;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 100px;
-  backdrop-filter: blur(5px);
+  bottom: 50px;
 }
 .App input:focus {
   outline: none;
@@ -120,12 +120,26 @@
     margin: 0 10px 50px;
   }
   .App .prompt {
-    font-size: 13px;
+    font-size: 18px;
   }
   .App input {
     min-width: unset;
     width: 100%;
-    left: 0;
     margin: 0;
   }
+}
+
+#attribution {
+  position: fixed;
+  z-index: 9;
+  right: 10px;
+  top: 10px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #0024E1;
+  font-size: 12px;
+  font-family: monospace, sans-serif;
+}
+#attribution:hover {
+  text-decoration: underline;
 }
