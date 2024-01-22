@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/hunt-empyra/static/css/main.61f74830.chunk.css",
-    "main.js": "/hunt-empyra/static/js/main.e6e56ad9.chunk.js",
-    "runtime-main.js": "/hunt-empyra/static/js/runtime-main.fab48ef9.js",
-    "static/js/2.37ee76a6.chunk.js": "/hunt-empyra/static/js/2.37ee76a6.chunk.js",
-    "static/js/3.b9ae848a.chunk.js": "/hunt-empyra/static/js/3.b9ae848a.chunk.js",
+    "main.css": "/hunt-empyra/static/css/main.6be4f29a.chunk.css",
+    "main.js": "/hunt-empyra/static/js/main.dd3c019f.chunk.js",
+    "runtime-main.js": "/hunt-empyra/static/js/runtime-main.3f8c8003.js",
+    "static/js/2.19cd5b35.chunk.js": "/hunt-empyra/static/js/2.19cd5b35.chunk.js",
+    "static/js/3.a9aa5574.chunk.js": "/hunt-empyra/static/js/3.a9aa5574.chunk.js",
     "index.html": "/hunt-empyra/index.html",
-    "static/js/2.37ee76a6.chunk.js.LICENSE.txt": "/hunt-empyra/static/js/2.37ee76a6.chunk.js.LICENSE.txt",
+    "static/js/2.19cd5b35.chunk.js.LICENSE.txt": "/hunt-empyra/static/js/2.19cd5b35.chunk.js.LICENSE.txt",
     "static/media/bg.e39a2f2f.svg": "/hunt-empyra/static/media/bg.e39a2f2f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fab48ef9.js",
-    "static/js/2.37ee76a6.chunk.js",
-    "static/css/main.61f74830.chunk.css",
-    "static/js/main.e6e56ad9.chunk.js"
+    "static/js/runtime-main.3f8c8003.js",
+    "static/js/2.19cd5b35.chunk.js",
+    "static/css/main.6be4f29a.chunk.css",
+    "static/js/main.dd3c019f.chunk.js"
   ]
 }
