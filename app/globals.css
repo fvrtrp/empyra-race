@@ -51,15 +51,16 @@ a:hover {
   font-size: 10px;
   font-weight: 400;
   text-decoration: none;
+  color: gray;
 }
 #attribution:hover {
 text-decoration: underline;
 }
 
 #titleContainer {
-  width: 100%;
-  text-align: center;
+  text-align: left;
   perspective: 500px;
+  display: inline-block;
 }
 #title {
   font-size: 50px;
@@ -138,4 +139,19 @@ form {
 }
 .winPrompt {
   margin-top: 100px;
+  text-transform: capitalize;
+}
+#players {
+  position: fixed;
+  top: 15px;
+  right: 10px;
+  resize: none;
+  border: solid 0.2px lightgray;
+  border-radius: 8px;
+  padding: 5px 10px;
+  max-width: 90%;
+  width: 200px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 11px;
 }

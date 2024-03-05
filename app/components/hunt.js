@@ -9,6 +9,7 @@ export default function Hunt(props) {
     const [ userInput, setUserInput] = useState("")
     const [currentQuestion, setQuestion] = useState(null)
     const [completed, setCompleted] = useState(false)
+    const [player, setPlayer] = useState('')
 
     useEffect(() => {
         const nextQuestion = questions.find(i=>i.key === 0)
@@ -56,7 +57,7 @@ export default function Hunt(props) {
                 <div className="winContainer">
                     <h1 className="header">You have<br/>finished.</h1>
                     <div className="winPrompt">
-                        SHARE THIS SCREEN ON TEAMS<br/>TO MARK COMPLETION.<br/>CONGRATS!
+                        Share this screen on Teams<br/>to mark completion.<br/><br/><b>Congrats {player}!</b>
                     </div>
                 </div>
             </>
@@ -86,10 +87,15 @@ export default function Hunt(props) {
                         value={userInput}
                         onChange={(e)=>setUserInput(e.target.value)}
                         autoFocus
-                        autoComplete={false}
-                        autoCorrect={false}
+                        autoComplete="false"
+                        autoCorrect="false"
                     />
                 </form>
+                <textarea
+                    id="players"
+                    onChange={(e) => setPlayer(e.target.value)}
+                    placeholder="Who's playing?"
+                />
             </div>
         </>
     )

@@ -7,7 +7,6 @@ export default function Background() {
         const maxX = window.innerWidth, maxY = window.innerHeight, size = 75
         const numX = Math.ceil(maxX/size) + 1, numY = Math.ceil(maxY/size) + 1
         const values = numX * numY
-        console.log(`zzz bg`, values, numX, numY, maxX, maxY, size)
         const background = document.querySelector('#background')
         for(let i=0; i<values; i++) {
             const el = document.createElement('div')
