@@ -67,8 +67,8 @@ export default function Hunt(props) {
         <>
             <Background />
             <div className="container">
-                <div className="prompt" aria-label="iamapuzzle">
-                <h3>
+                <div className="prompt">
+                <h3 aria-label='imjustaprompt'>
                     {currentQuestion.title}
                 </h3>
                 {
