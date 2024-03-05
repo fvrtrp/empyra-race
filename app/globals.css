@@ -32,7 +32,7 @@ body {
     rgb(var(--background-start-rgb)); */
 }
 body {
-  padding: 2rem 2rem;
+  padding: 1rem 2rem;
   min-height: 100vh;
 }
 
@@ -61,7 +61,7 @@ text-decoration: underline;
   text-align: center;
 }
 #title {
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 700;
 }
 
@@ -107,7 +107,7 @@ form {
   0% {
     box-shadow: 0 0 0 rgb(12, 255, 12);
   }
-  50% {
+  25% {
       box-shadow: 0 0 10px 0px rgb(12, 255, 12);
   }
   100% {
@@ -118,10 +118,18 @@ form {
   0% {
     box-shadow: 0 0 0 red;
   }
-  50% {
+  25% {
       box-shadow: 0 0 10px 0px red;
   }
   100% {
     box-shadow: 0 0 0 0 red;
   }
+}
+
+.winContainer {
+  margin-top: 100px;
+  text-align: center;
+}
+.winPrompt {
+  margin-top: 100px;
 }

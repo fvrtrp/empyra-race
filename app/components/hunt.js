@@ -52,7 +52,8 @@ export default function Hunt(props) {
     if(completed) {
         return (
             <>
-                <div className="container">
+                <Background />
+                <div className="winContainer">
                     <h1 className="header">You have<br/>finished.</h1>
                     <div className="winPrompt">
                         SHARE THIS SCREEN ON TEAMS<br/>TO MARK COMPLETION.<br/>CONGRATS!
