@@ -1,7 +1,5 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import { inter, montserrat } from "./fonts";
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +9,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="titleContainer">
+          <div id="title" className={montserrat.className}>
+            <div className="hunt">Hunt</div>
+            <div className="companyName">Empyra</div>
+          </div>
+        </div>
+        {children}
+        <a id="attribution" href="https://fvrtrp.com" target="_blank" rel="noreferrer">BY FVRTRP</a>
+        </body>
     </html>
   );
 }

@@ -27,6 +27,9 @@ export default function Background() {
     }, [])
 
     return (
+        <>
         <div id="background" className="flex flex-wrap" />
+        <div id="backgroundOverlay" />
+        </>
     )
 }
