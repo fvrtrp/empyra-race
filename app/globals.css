@@ -55,6 +55,7 @@ a:hover {
 }
 #attribution:hover {
 text-decoration: underline;
+color:rgb(12, 255, 12);
 }
 
 #titleContainer {
