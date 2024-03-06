@@ -1,100 +1,93 @@
 export const questions = [
     {
-        key: 0,
-        title: `что`,
-        body: ``,
-        solution: "6557739a67283a8de383fc5c0997fbec7c5721a46f28f3235fc9607598d9016b",
+        "key": "031844b1fb0dca5367fe7ea7ac4a29076dc51a2df920deade86a28e109726ce4",
+        "title": "Andrew made us all seasick last month. What game was it?",
+        "body": "",
+        "solution": "28e981e1f6997741d267f3e62a0db61d9687a7875f109b8aaab3677cd34e1681"
     },
     {
-        key: 'd5070310a61845727f2b7ae38d9ea822f10cc0fb8d79d636e9fc3946525644c8',
-        title: `The place where we all meet for Engineering connects`,
-        body: ``,
-        solution: "fadff6cf8575b7b140b3302ad278acb4da13d1cd9ade3003d4a6290ad23d0a79",
+        "key": "86a56f7cc2967ee1b1004e65aad369fc3549bedafd0de23f064009cffdd92bf3",
+        "title": "He lives at 221B Baker street, and solves crimes. What musical instrument does he play?",
+        "body": "",
+        "solution": "00e3e584e242f926ff6b26bdd0cd26aac15b7ae023a7306c81a7d5708ce8459a"
     },
     {
-        key: '9a20fc57b132f4f7e2f0432864a6b42bde1aabd1f660db452d98d7f0ec48f970',
-        title: `They might have built the pyramids`,
-        body: ``,
-        solution: "e2bbb74d442a1d0f6ce104959bb9ff7c7d1d044d2cfeabfd330372e86e8e6b67",
+        "key": "f8ccb953e46b74ea8e8733fb42033e78611ab38fa91d25b09804e8cbec345577",
+        "title": "Share this picture on Teams for good luck",
+        "body": "https://www.memesmonkey.com/images/memesmonkey/e0/e0dda13464a48ee513803e4f35ce74d7.jpeg",
+        "solution": "e6919b98b4e9808ee207744a812354b92ae68a8f837bcd4b34b5808dea28b138"
     },
     {
-        key: '0a701d0147f41d378810453cac4654ac38af91b78f7557c936f350da4f6b77f8',
-        title: `Wikipedia loves these`,
-        body: ``,
-        solution: "ff7c3633b08f0d630f83a5bca537c0146728fd66d1d5db67071a1e48fe823e09",
+        "key": "b6cfdc53bf3cc279dd3901c2e2ab1179d5f3732074e07b31893010a9ba9ac6f9",
+        "title": "The answer to life, the universe, and everything",
+        "body": "",
+        "solution": "73475cb40a568e8da8a045ced110137e159f890ac4da883b6b17dc651b3a8049"
     },
     {
-        key: 'b0a5526e75ecbf14f5fe87d3bde1bfb9be46ac88de213d61b562accfc9bdc831',
-        title: `facebook’s russian clone`,
-        body: ``,
-        solution: "de689e0552651100c185241c687765f8fa16650eb8143646ee2d6ca12b75921b",
+        "key": "cbead97d475610421195fb7e60203e0c37c37655e954284f76ba012c6ff5eac5",
+        "title": "____ is the mind-killer. What book is this from?",
+        "body": "",
+        "solution": "ab906be12ca6d9f28ad5687f2b0ab8bc5e4535060485ee9c6eec3580777424ee"
     },
     {
-        key: 'a6fa109c74a284e156919c50e08bcd63f3412f1da2b2025b81e08ffc30a9f27d',
-        title: `Draw me this:
-        2 people running from a demon in a forest`,
-        body: ``,
-        solution: "5f135492e29358ceaf52b68966ffd1fc68bd0cc7cd967de4929a2f428794422a",
+        "key": "45a6f3df77697a7ff6c6b037489603d8781b860a02bed20e238291d9bec16b0c",
+        "title": "Who said 'Now I Am Become Death, the Destroyer of Worlds'",
+        "body": "",
+        "solution": "b06514d8bc65875cc670a226aa945c492c126ef2da71f226c3ed938aacb27f30"
     },
     {
-        key: '75bb36dae4eeb9a8461973c06b73618593db9389e14d7410d0d657e084ae1c45',
-        title: `A letter(English), that charges up electronics`,
-        body: ``,
-        solution: "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
+        "key": "7a60ca9981a937df61c95a2b434303a45d414900d6cdb7a8cb452551301fc320",
+        "title": "Draw me this:",
+        "body": "Your typical friday evening at the office",
+        "solution": "f4796125a51cd5013763479f4a46aae891bc40289836685b38369507f1fc112b"
     },
     {
-        key: 'c8623e984cf78e0f3a959827b540a5cdbe4da246f5302ec8de4270300cf724c1',
-        title: `There was a blockbuster movie released a few years ago that featured superheroes and the concept of the multiverse. A beloved character takes the help of other versions of himself to get over a big problem. Did you love that movie? I did. Anyway, what was that movie called again? I can’t seem to remember. Aah, forget it, the name of the movie doesn’t matter. It was nice to see Tobey Maguire and Andrew Garfield return to the screen in their iconic roles. And Willem Dafoe as green goblin was definitely the highlight of the whole movie, wouldn’t you agree? I didn’t see that one coming..Anyway, what’s the real name of Spiderman?`,
-        body: ``,
-        solution: "7c17ade7a9c8e5ce433b01d225b24d0e2626d4950918e9d2c71d973f90395eda",
+        "key": "ae92fffe9a0d3cf0ebfc6d70230a17e306d55152f732ff6df14f42e9b9ea792c",
+        "title": "It’s a city, but also a conference room in the office.",
+        "body": "",
+        "solution": "6b465516e7221fc65d4c48330a398de95ce1b11089f185d2e4874499ae96f1c8"
     },
     {
-        key: '9d2df09e9f4d0a4cf0f5bd81d473caa2b58d9fd0291f618d79c9326959a59134',
-        title: `If A is 1, B is 2 …. Z is 26. What is the sum (in words) if we add up the 6 letters of our company’s name?`,
-        body: ``,
-        solution: "349c41201b62db851192665c504b350ff98c6b45fb62a8a2161f78b6534d8de9",
+        "key": "033c339a7975542785be7423a5b32fa8047813689726214143cdd7939747709c",
+        "title": "What’s my Aria label?",
+        "body": "",
+        "solution": "17c3ac9054865cb5fbc81930d09c8e92f0bec030fd9ce65143ea4378ebb992e8"
     },
     {
-        key: 'abb4732b011c594e235d8d6a177221a5a08b4b3ddce891c9251f26e87c3b498f',
-        title: `I am a vehicle that travels very fast, I bring you news from the past. And even if you’re riding along with me, you appear to be going slower than all. How fast am I going in m/s. (Be precise)`,
-        body: ``,
-        solution: "efbf700e870cb889052cffbe9d66458a3145d88424df9582ae6da734b3fdd3ec",
+        "key": "cf7e5fea4fcf5c13d1335dad8ef09e25d813c68604e4ddce0e130b5bd05ab9dd",
+        "title": "We went here for the last office outing",
+        "body": "",
+        "solution": "9062ba54707c3909bd207d6e667e401572a542cf5482bcdb1f0c82b232c19b39"
     },
     {
-        key: '37627ea363ffc69842b682e61afc95fade8f9cbc4098d0f0aad3f5d1541cc9f5',
-        title: `share this picture on slack for good luck`,
-        body: `https://s3.memeshappen.com/memes/Good-luck--meme-38524.jpg`,
-        solution: "cad06147120377be89fcbc6e7f8c0b2cce97c4e6a3595aaf39a7c28d3092f247",
+        "key": "43ad99c8efad2f48f3ebb441650fbb1f6674213f4f368666c1fcaae2f30ac8b5",
+        "title": "Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1, and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, \"Do you want to pick door No. 2?\" Is it to your advantage to switch your choice? This is the gist of the famous Monty Hall problem. I can never quite understand the explanation to it’s solution. Anyway, what’s 2+2?",
+        "body": "",
+        "solution": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
     },
     {
-        key: '287ee89d8ef03c72c3aba91a379f0179ee83e0a70ed355df38ccff09459135a1',
-        title: `When you run out of all ideas, what can you do to get the key?`,
-        body: ``,
-        solution: "2f2fc7f2e9ce13b09b84f63d54d0b4a59f4dbd46aea41da67023817e2d0c5e59",
+        "key": "e29778dc419ee538f41ee7c9cff5566d1232c55d1a3b4bb17705dd438d05a4cf",
+        "title": "If you get this answer right, you might just ___.",
+        "body": "",
+        "solution": "823a3180dad3c9c3c4dea43ab2baf9f04bac9c3a7711745ff5f702551496d735"
     },
     {
-        key: '072723e7318cca756f4c55ccf8803a4c05563692f3a2cb090378b4bed91d488a',
-        title: `This person knows when we get into the office, and out. He has the key.`,
-        body: ``,
-        solution: "1f713bd4bf6c078350f69e0b3dc0ee68343843820bf4c8a73771d019e0072517",
+        "key": "c4e2c04de5b402c299be27eec11a8a7ec52e2b308db22e4b0f1635e5037d3797",
+        "title": "The ship that will take us to mars",
+        "body": "",
+        "solution": "9e7f3375709b613eac449f47489c7749d7fd986874dc5d1a69cd28b6ddd4ad93"
     },
     {
-        key: '783d8d1e20781c6eea633f3b3551076087abbd107eb9cfeba590e7b59b83ece9',
-        title: `Name of the office cat (she’s female)`,
-        body: ``,
-        solution: "249918d8d70e4ec8cc078f560334844a6ba184a3ca601ce8edaa0fb30d413f09",
+        "key": 0,
+        "title": "This is the first puzzle.",
+        "body": "",
+        "solution": "3739f9536b33f3fed7446a21711346890628160adefb888f44f55985f5c0b205"
     },
     {
-        key: 'da089662674f9287c8a77dc95d084272d170480d52066d1e62bffd9dedbf6b4f',
-        title: `We do not release if these 2 letters fail`,
-        body: ``,
-        solution: "3f3ef786b34d6dd716e1812c8b74a7a0e1f05aa5f3230588f6f5bcd00c6c8392",
-    },
-    {
-        key: '9387112477ae3d0758055b1724efe7868a2b4df8341c4a8826e4bdb271cd8788',
-        title: `This is the last puzzle`,
-        body: ``,
-        solution: "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df",
-    },
+        "key": "f59a3fcdeea10a67a3a4dbad93d889440055ea2e43eebcb178352e329d7a74a6",
+        "title": "Fill me every week, or I get locked.",
+        "body": "",
+        "solution": "8d6546721a1d106cf8d27f7326ebae7e83c1592aeb7479b8f7ec9d8d700d464f"
+    }
 ]
-export const finalHash = "bc13c5350e031e981f81b5a4f565279e3ca19408a7e3fd4e62d11b296f7857a3"
+export const finalHash = "b9c49be6ab1a51a9bcc023afc9463c249a8ad4ff80a4c01d568bf4dea3e4d498"
